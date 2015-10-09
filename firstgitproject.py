@@ -8,6 +8,9 @@ def divideemup(a, b):
 def subtract(a, b, c):
     return a-b-c
     
+def divideandadd(a, b, c)
+    return a/b+c
+    
 def main():
     a = int(input("first number "))
     b = int(input("second number "))
@@ -16,6 +19,7 @@ def main():
     print(addemup(a, b, c))
     print(divideemup(a, b))
     print(subtract(a, b, c))
+    print (divideandadd(a, b, c))
 main()
 
 
