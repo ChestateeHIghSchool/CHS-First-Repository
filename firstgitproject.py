@@ -1,25 +1,16 @@
-__author__ = 'darrell.skogman'
+__author__ = 'Nicholas Poole'
 def addemup(a, b, c):
-    return a+b+c
+return a+b+c
 
-def divideemup(a, b):
-    return a/b
-    
-def subtract(a, b, c):
-    return a-b-c
-    
-def divideandadd(a, b, c)
-    return a/b+c
-    
+def subc(a, b, c):
+return a+b-c
+
 def main():
-    a = int(input("first number "))
-    b = int(input("second number "))
-    c = int(input("third number "))
+a = int(input("first number "))
+b = int(input("second number "))
+c = int(input("third number "))
 
-    print(addemup(a, b, c))
-    print(divideemup(a, b))
-    print(subtract(a, b, c))
-    print (divideandadd(a, b, c))
+print(addemup(a, b, c))
+print(subc(a, b, c))
+
 main()
-
-
